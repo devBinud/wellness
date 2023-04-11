@@ -1,0 +1,137 @@
+/*------------------------------
+PAGINATION BOX
+-------------------------------*/
+.pagination__box{
+    width: 100%;
+    height: 10vh;
+    margin-top:10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/*------------------------------
+REGISTRATION
+-------------------------------*/
+
+.registration__left{
+    box-shadow:0 0.25rem 1rem rgba(79, 50, 195, 0.4);
+    padding: 4rem 2rem;
+    border-radius:1rem;
+    background-color: #383784;
+    transition:all .2s ease-in-out;
+    border: 1px solid #4B49AC;
+}
+.registration__right{
+    box-shadow:0 0.25rem 1rem rgba(79, 50, 195, 0.4);
+    padding: 4rem 2rem;
+    border-radius:1rem;
+    background-color:#17703d;
+    transition:all .2s ease-in-out;
+}
+.registration__left, .registration__right h4{
+    text-align: center;
+    color: #fff;
+}
+.registration__left:hover{
+    background-color: #4B49AC;
+}
+
+
+.registration__right:hover{
+   background-color: #278952;
+}
+ /*-----------------------------
+ PREBOOKING
+ -----------------------------*/
+.prebooking{
+    box-shadow:0 0.25rem 1rem rgba(79, 50, 195, 0.4);
+    padding: 4rem 2rem;
+    border-radius:1rem;
+    background-color:#383784;
+    transition:all .2s ease-in-out;
+}
+.prebooking h4{
+    text-align: center;
+    color: #fff;
+}
+.prebooking:hover{
+   background-color: #4B49AC;
+}
+
+/* ----------------------------
+REPORTS (CENTER)
+----------------------------- */
+
+.reports__section{
+    margin-top: 2rem;
+    gap: 1rem;
+}
+.reports_card{
+    border: 1px solid #6aa48f;
+    padding: 0.7rem;
+    box-shadow: 0 0.25rem 1rem rgba(32, 31, 34, 0.2);
+    border-radius: 1rem;
+}
+.reports_card h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #27ae60;
+    padding: 1rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid #dad9d9;
+    border-radius: 0.5rem;
+}
+.report_details{
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 1rem;
+
+}
+.reports_right{
+    border: 1px solid #000;
+}
+.reports_span{
+    color:rgb(98, 98, 98);
+    font-size: 1.3rem;
+    margin-left: 0.4rem;
+}
+.report_details .data h3{
+    font-size: 1.2rem;
+}
+
+.reports_card_doctor{
+    border: 1px solid #6aa48f;
+    padding: 0.7rem;
+    box-shadow: 0 0.25rem 1rem rgba(89, 219, 134, 0.2);
+    border-radius: 1rem;
+}
+.reports_card_doctor h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    color: black;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid #dad9d9;
+    background-color: #27ae60;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.select__doctors{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    border-top:1px solid #dad9d9;
+    background-color: #27ae60;
+    padding: 0.5rem;
+}
+.result h3{
+    color: #fff;
+}

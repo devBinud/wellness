@@ -1,0 +1,10 @@
+Options +FollowSymLinks
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteRule ^/?$  pages/login.php [QSA]
+
+
+
+
+</IfModule>
